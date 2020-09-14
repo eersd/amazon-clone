@@ -19,7 +19,6 @@ function reducer(state, action){
                 ...state,
                 basket: [...state.basket, action.item],
             };
-            break;
         case 'REMOVE_FROM_BASKET':
             let newBasket = [...state.basket];
 

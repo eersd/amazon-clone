@@ -15,11 +15,11 @@ function Checkout() {
             <div className="checkout__left">
                 <img 
                     className="checkout__ad"
-                    src="https://images-na.ssl-images-amazon.com/images/G/03/credit/img19/cbcc/maple/bau40_2019_maple_ur_770x60_v1._CB436734072_.jpg"
+                    src="https://images-na.ssl-images-amazon.com/images/G/03/credit/img20/EoSS/eos_2020_maple_ur_770x60._CB406658813_.jpg"
                     alt=""
                 />
                 {basket?.length === 0 ? (
-                    <div>
+                    <div className="checkout__leftInfo">
                         <h2> Your Shopping Cart is empty</h2>
                         <p>
                             You have no items in your basket. To buy one or more items, click "Add to cart" next to the item.

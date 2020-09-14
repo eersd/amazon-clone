@@ -12,14 +12,20 @@
 }
 
 .checkout__ad{
-    width: 100%;
     margin-bottom: 10px;
     object-fit: contain;
+    display: flex;
 }
 
 .checkout__left{
     width: 75%;
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.checkout__leftInfo > h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .checkout__right{

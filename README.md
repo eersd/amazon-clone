@@ -12,7 +12,7 @@ To run the frontend locally:
 
 ## Functionality overview
 
-This project is created mainly for education purposes. This project utilizes Firebase for authentication and server hosting.
+This project is created mainly for education purposes. This project utilizes Firebase for authentication and server hosting. This project uses React-Context-API instead of Redux for the cart system.
 
 **General functionality:**
 
